@@ -33,3 +33,12 @@ npm-debug.log*
 # Python virtual environments
 .venv/
 backend/.venv/
+
+# Temporary backup files
+*.bak
+*_backup.py
+*_backup_before_sensor.py
+
+# Python bytecode and cache folders
+**/__pycache__/
+*.backup

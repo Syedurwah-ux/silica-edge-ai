@@ -100,7 +100,7 @@ function Landing() {
           <motion.button
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.96 }}
-            onClick={() => navigate("/dashboard")}
+            onClick={() => navigate("/login")}
             className="flex items-center gap-2 rounded-xl bg-cyan-400 px-4 py-2.5 text-xs font-bold text-slate-950 transition-all duration-300 hover:bg-cyan-300 hover:shadow-[0_0_25px_rgba(34,211,238,0.25)] md:px-5 md:py-3 md:text-sm"
           >
             Launch System
@@ -155,7 +155,7 @@ function Landing() {
               <motion.button
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
-                onClick={() => navigate("/dashboard")}
+                onClick={() => navigate("/login")}
                 className="group flex items-center justify-center gap-3 rounded-xl bg-cyan-400 px-7 py-4 text-sm font-bold text-slate-950 shadow-[0_0_30px_rgba(34,211,238,0.12)] transition-all duration-300 hover:bg-cyan-300 hover:shadow-[0_0_40px_rgba(34,211,238,0.3)]"
               >
                 Launch Monitoring System
@@ -638,7 +638,7 @@ function Landing() {
             <motion.button
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.96 }}
-              onClick={() => navigate("/dashboard")}
+              onClick={() => navigate("/login")}
               className="mt-8 inline-flex items-center gap-3 rounded-xl bg-cyan-400 px-7 py-4 text-sm font-bold text-slate-950 transition-all duration-300 hover:bg-cyan-300 hover:shadow-[0_0_35px_rgba(34,211,238,0.25)]"
             >
               Launch Monitoring System
